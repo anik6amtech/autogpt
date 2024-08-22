@@ -1,0 +1,12 @@
+
+version: '3.8'
+
+services:
+
+  autogpt_flutter:
+    build:
+      context: .
+      dockerfile: DockerWeb
+    ports:
+      - "8454:80" 
+    restart: unless-stopped

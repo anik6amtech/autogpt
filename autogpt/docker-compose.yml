@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  auto-gpt:
+    build:
+      context: ../
+      dockerfile: Dockerfile.autogpt
+    env_file:
+      - .env
+    volumes:
+      - ./:/app/autogpt/
+      - ./docker-compose.yml:/app/docker-compose.yml:ro
+      # - ./Dockerfile:/app/Dockerfile:ro
+    ports:
+      - "8000:8000" # Map port 8000 on the host to port 8000 in the container
+    command: serve # Automatically runs the 'serve' command when the container starts
