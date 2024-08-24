@@ -24,13 +24,13 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: 'AIzaSyBvYLAK_A0uhFuVPQbTxUdVWbb_Lsur9cg',
-      authDomain: 'prod-auto-gpt.firebaseapp.com',
-      projectId: 'prod-auto-gpt',
-      storageBucket: 'prod-auto-gpt.appspot.com',
-      messagingSenderId: '387936576242',
-      appId: '1:387936576242:web:7536e0c50dd81b4dd7a66b',
-      measurementId: 'G-8PRS69JJRL',
+        apiKey: "AIzaSyCgQW0U8Bob_DEgWXDBIOs0ETxG4BRPJq0",
+  authDomain: "autogpt-759d5.firebaseapp.com",
+  projectId: "autogpt-759d5",
+  storageBucket: "autogpt-759d5.appspot.com",
+  messagingSenderId: "933301605027",
+  appId: "1:933301605027:web:661e122a700f74fe1c6516",
+  measurementId: "G-6DEWGVC95R"
     ),
   );
 
