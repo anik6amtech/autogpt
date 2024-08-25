@@ -5,7 +5,7 @@ import pytest
 import requests
 
 URL_BENCHMARK = "http://localhost:8080/ap/v1"
-URL_AGENT = "http://localhost:8000/ap/v1"
+URL_AGENT = "https://gpt-backend.utdstyle.com/ap/v1"
 
 try:
     response = requests.get(f"{URL_AGENT}/agent/tasks")

@@ -107,7 +107,7 @@ To exit the program, press ++ctrl+c++
 ### `serve` &ndash; Agent Protocol mode with UI
 
 With `serve`, the application exposes an Agent Protocol compliant API and serves a
-frontend, by default on `http://localhost:8000`. You can configure the port it is served on with the `AP_SERVER_PORT` environment variable.
+frontend, by default on `https://gpt-backend.utdstyle.com`. You can configure the port it is served on with the `AP_SERVER_PORT` environment variable.
 
 <details>
 <summary>

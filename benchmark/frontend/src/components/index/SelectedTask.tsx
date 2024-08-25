@@ -34,7 +34,7 @@ const SelectedTask: React.FC<SelectedTaskProps> = ({
     const testParam = selectedTask.name;
     setIsLoading(true);
     try {
-      let url = `http://localhost:8000/run_single_test?test=${testParam}&mock=${isMock}`;
+      let url = `https://gpt-backend.utdstyle.com/run_single_test?test=${testParam}&mock=${isMock}`;
       cutoff && !isMock && (url += `&cutoff=${cutoff}`);
       const response = await fetch(url);
       const data = await response.json();

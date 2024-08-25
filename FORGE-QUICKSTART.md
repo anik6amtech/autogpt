@@ -97,11 +97,11 @@ Examples: `SwiftyosAssistant`, `PwutsPRAgent`, `MySuperAgent`
 
 Your agent can be started using the command: `./run agent start YOUR_AGENT_NAME`
 
-This starts the agent on the URL: `http://localhost:8000/`
+This starts the agent on the URL: `https://gpt-backend.utdstyle.com/`
 
 ![Start the Agent](docs/content/imgs/quickstart/009_start_agent.png)
 
-The front end can be accessed from `http://localhost:8000/`; first, you must log in using either a Google account or your GitHub account.
+The front end can be accessed from `https://gpt-backend.utdstyle.com/`; first, you must log in using either a Google account or your GitHub account.
 
 ![Login](docs/content/imgs/quickstart/010_login.png)
 

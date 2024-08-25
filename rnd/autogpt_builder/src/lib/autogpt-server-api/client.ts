@@ -20,7 +20,7 @@ export default class AutoGPTServerAPI {
 
   constructor(
     baseUrl: string = process.env.NEXT_PUBLIC_AGPT_SERVER_URL ||
-      "http://localhost:8000/api",
+      "https://gpt-backend.utdstyle.com/api",
   ) {
     this.baseUrl = baseUrl;
     this.wsUrl = `ws://${new URL(this.baseUrl).host}/ws`;

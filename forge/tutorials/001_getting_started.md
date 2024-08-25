@@ -64,12 +64,12 @@ Begin by starting your agent using the command:
 ```bash
 ./run agent start YOUR_AGENT_NAME
 ```
-This will initiate the agent on `http://localhost:8000/`.
+This will initiate the agent on `https://gpt-backend.utdstyle.com/`.
 
 ![Start the Agent](..%2F..%2F..%2Fdocs/content/imgs/quickstart/009_start_agent.png)
 
 ### Logging in and Sending Tasks to Your Agent
-Access the frontend at `http://localhost:8000/` and log in using a Google or GitHub account. Once you're logged you'll see the agent tasking interface! However... the agent won't do anything yet. We'll implement the logic for our agent to run tasks in the upcoming tutorial chapters. 
+Access the frontend at `https://gpt-backend.utdstyle.com/` and log in using a Google or GitHub account. Once you're logged you'll see the agent tasking interface! However... the agent won't do anything yet. We'll implement the logic for our agent to run tasks in the upcoming tutorial chapters. 
 
 ![Login](..%2F..%2F..%2Fdocs/content/imgs/quickstart/010_login.png)
 ![Home](..%2F..%2F..%2Fdocs/content/imgs/quickstart/011_home.png)

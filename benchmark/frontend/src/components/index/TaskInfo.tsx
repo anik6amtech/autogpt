@@ -30,7 +30,7 @@ const TaskInfo: React.FC<TaskInfoProps> = ({
   const runBenchmark = async () => {
     setIsLoading(true);
     try {
-      let url = `http://localhost:8000/run?mock=${isMock}`;
+      let url = `https://gpt-backend.utdstyle.com/run?mock=${isMock}`;
       cutoff && !isMock && (url += `&cutoff=${cutoff}`);
       const response = await fetch(url);
       const data = await response.json();

@@ -115,7 +115,7 @@ Options:
 </details>
 
 With `serve`, the application exposes an Agent Protocol compliant API and serves a frontend,
-by default on `http://localhost:8000`.
+by default on `https://gpt-backend.utdstyle.com`.
 
 For more comprehensive instructions, see the [user guide][docs/usage].
 
