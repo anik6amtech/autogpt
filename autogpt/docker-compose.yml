@@ -12,5 +12,5 @@ services:
       - ./docker-compose.yml:/app/docker-compose.yml:ro
       # - ./Dockerfile:/app/Dockerfile:ro
     ports:
-      - "${AP_SERVER_PORT}:8000" # Map port 8000 on the host to port 8000 in the container
+      - "8050:8000" # Map port 8000 on the host to port 8000 in the container
     command: serve # Automatically runs the 'serve' command when the container starts
