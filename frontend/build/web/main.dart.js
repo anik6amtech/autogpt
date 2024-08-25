@@ -49158,7 +49158,7 @@ A.a9d.prototype={
 $1(a){return this.a.$2(a,this.b)},
 $S:315}
 A.aBz.prototype={
-$1(a){return new A.fG("http://127.0.0.1:8000/ap/v1")},
+$1(a){return new A.fG("https://gpt-backend.utdstyle.com/ap/v1")},
 $S:316}
 A.aBA.prototype={
 $1(a){return $.aPR()},
@@ -49883,7 +49883,7 @@ q.b=p==null?!0:p
 s=4
 return A.K(o.xA(0,"baseURL"),$async$nM)
 case 4:p=b
-if(p==null)p="http://127.0.0.1:8000/ap/v1"
+if(p==null)p="https://gpt-backend.utdstyle.com/ap/v1"
 q.c=p
 q.e.a=p
 s=5
@@ -50753,7 +50753,7 @@ $R:3,
 $S:467}
 A.a4c.prototype={
 $0(){var s=this.a.c
-s.scW(0,"http://127.0.0.1:8000/ap/v1")
+s.scW(0,"https://gpt-backend.utdstyle.com/ap/v1")
 this.b.xi(s.a.a)},
 $S:0}
 A.a4d.prototype={

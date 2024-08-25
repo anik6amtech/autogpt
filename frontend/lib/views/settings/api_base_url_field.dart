@@ -39,7 +39,7 @@ class ApiBaseUrlField extends StatelessWidget {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      controller.text = 'http://127.0.0.1:8000/ap/v1';
+                      controller.text = 'https://gpt-backend.utdstyle.com/ap/v1';
                       settingsViewModel.updateBaseURL(controller.text);
                     },
                     style: ElevatedButton.styleFrom(

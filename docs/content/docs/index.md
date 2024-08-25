@@ -28,7 +28,7 @@ We welcome contributions to our documentation! If you would like to contribute, 
     mkdocs serve
     ```
 
-1. Open your browser and navigate to `http://127.0.0.1:8000`.
+1. Open your browser and navigate to `https://gpt-backend.utdstyle.com`.
 
 1. The server will automatically reload the docs when you save your changes.
 
